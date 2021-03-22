@@ -1,0 +1,73 @@
+form{
+    padding-top:8em;
+    width:80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:56.8vh;
+    .contactHeader{
+        text-align: center;
+        color: white;
+        h2{
+            font-size: 3em;
+            padding:1em 0;
+        }
+        p{
+            font-size: 2em;
+            padding-bottom: 1em;
+        }
+    }
+    .row{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        .nameAndEmail{
+            display: flex;
+            width:100%;
+            
+            .nameEmail{
+                padding:1em;
+                width:100%;
+                background-color: rgba(68,68,68, .9);
+                color: white;
+                &::placeholder {
+                    color: white;
+                }
+            }
+            .name{
+                margin-right: 1em;
+            }
+            .email{
+                margin-left: 1em;
+            }
+        }
+        .subMessage{
+            box-sizing: border-box;
+            width:100%;
+            padding:1em;
+            margin:2em 0;
+            background-color: rgba(68,68,68, .9);
+            color: white;
+            &::placeholder {
+                color: white;
+            }
+        }
+    }
+    .buttons{
+        width:80%;
+        display: flex;
+        justify-content: center;
+        .btnOne{
+            margin:1em;
+            padding:1em;
+        }
+        .clearBtn{
+            margin:1em;
+            padding:1em;
+        }
+    }
+
+}

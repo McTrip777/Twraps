@@ -1,0 +1,15 @@
+.homeContainer{
+    .head{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .headTitle{
+            position: absolute;
+            color: white;
+            font-size: 4em;
+            
+            text-align: center;    
+        }
+    }
+}
