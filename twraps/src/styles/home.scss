@@ -43,8 +43,9 @@
         text-align: center;
         width: 100%;
         padding:3em 2em;
-        background: #bcbcbc;
+        background: #636363;
         box-sizing: border-box;
+        color: #bcbcbc;
         .aboutTwraps{
             font-weight: 700;
             font-size: 2em;
@@ -52,6 +53,7 @@
         }
         .aboutText{
             font-size: 1.4em;
+            line-height: 1.4em;
         }
     }
 }

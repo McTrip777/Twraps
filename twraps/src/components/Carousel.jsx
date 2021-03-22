@@ -1,28 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
-import jeep from "../img/jeep-wrap-1.png"
-import mustang from "../img/mustang-wrap-1.jpg"
-import truck from "../img/truck-wrap-1.jpeg"
-import porche from "../img/porche-wrap-1.jpeg"
+import { CarouselImages } from './ImgData'
 
-const images = [
-    {
-        image: jeep
-    },
-    {
-        image: mustang
-    },
-    {
-        image: truck
-    },
-    {
-        image: porche
-    }
-]
+
 
 const Carousel = () => {
     const [current, setCurrent] = useState(0)
-    const length = images.length
+    const length = CarouselImages.length
 
     const nextSlide = () => {
         setCurrent(current === length - 1 ? 0 : current + 1)
@@ -37,12 +21,12 @@ const Carousel = () => {
         }, 15000)
     }, [current])
 
-    if (!Array.isArray(images) || images.length <= 0) return null
+    if (!Array.isArray(CarouselImages) || CarouselImages.length <= 0) return null
 
     return (
         <section className="slider">
             {/* <FaArrowAltCircleLeft className="leftArrow arrow" onClick={prevSlide} /> */}
-            {images.map((slide, index) => {
+            {CarouselImages.map((slide, index) => {
                 return (
                     <div className={index === current ? "slide active" : "slide"} key={index}>
                         {index === current && (<img src={slide.image} alt="vehicles" className="img" />)}
