@@ -1,15 +1,57 @@
 .homeContainer{
+    width: 100vw;
+    
     .head{
-        height: 100vh;
+        height: 99.5vh;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+        .TWrapsImg{
+            height: 10em;
+            margin-bottom: 1em;
+        }
         .headTitle{
-            position: absolute;
-            color: white;
+            color: $black;
+            font-family: 'Teko', sans-serif;
+            font-weight: 700;
+            text-shadow: 0px 0px 8px $light-tan;
             font-size: 4em;
-            
             text-align: center;    
+        }
+        .titleButton{
+            padding: .5em 1.2em;
+            margin:1em;
+            background: #040404;
+            color:#bcbcbc;
+            font-size: 1.6em;
+            cursor: pointer;
+            border: 2px solid #3c3c44;
+            border-radius: 5px;
+            &:hover{
+                background: #04c304;
+                color: #040404;
+            }
+        }
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        width: 100%;
+        padding:3em 2em;
+        background: #bcbcbc;
+        box-sizing: border-box;
+        .aboutTwraps{
+            font-weight: 700;
+            font-size: 2em;
+            padding: .5em;
+        }
+        .aboutText{
+            font-size: 1.4em;
         }
     }
 }

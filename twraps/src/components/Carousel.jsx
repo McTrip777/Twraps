@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
-import jeep from "../img/jeep-wrap.webp"
-import mustang from "../img/mustang-wrap.webp"
+import jeep from "../img/jeep-wrap-1.png"
+import mustang from "../img/mustang-wrap-1.jpg"
+import truck from "../img/truck-wrap-1.jpeg"
+import porche from "../img/porche-wrap-1.jpeg"
 
 const images = [
     {
@@ -9,14 +11,13 @@ const images = [
     },
     {
         image: mustang
+    },
+    {
+        image: truck
+    },
+    {
+        image: porche
     }
-    // ,
-    // {
-    //     image: 'https://images.unsplash.com/photo-1604776159603-cacfe8f4b46f?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDV8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
-    // },
-    // {
-    //     image: 'https://images.unsplash.com/photo-1489493585363-d69421e0edd3?ixid=MXwxMjA3fDB8MHx0b3BpYy1mZWVkfDh8NnNNVmpUTFNrZVF8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
-    // }
 ]
 
 const Carousel = () => {
