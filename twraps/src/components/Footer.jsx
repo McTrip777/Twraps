@@ -20,7 +20,7 @@ function Footer() {
                 </div>
                 <Link to="/contact"><button>REQUEST A QUOTE</button></Link>
             </div>
-            <div className="foo footerServices">
+            <div className="foo footerAbout">
                 <h4>T-Wraps</h4>
                 <p>Our goal is to provide you with excellent service and a long lasting and high quality wrap at an affordable price</p>
             </div>
