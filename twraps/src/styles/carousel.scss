@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    min-height: 99.5vh;
+    height: 100vh;
+    min-height: 100vh;
     position: absolute;
     z-index: -10;
 //    .arrow{
@@ -29,13 +29,13 @@
         z-index: -100;
         width: 100vw;
         opacity: 0;
-        max-height: 93vh;
-        height: 93vh;
+        max-height: 95vh;
+        height: 95vh;
     img{
         width: 100vw;
-        max-height: 93vh;
-        height: 93vh;
-        padding-top:7vh;
+        max-height: 95vh;
+        height: 95vh;
+        padding-top:5vh;
         object-fit: cover;
         // overflow: hidden;
     }

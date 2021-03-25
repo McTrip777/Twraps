@@ -10,6 +10,8 @@ const Gallery = () => {
     const setToWall = () => setType("Wall")
     const setToColor = () => setType("Color")
 
+    let val = false
+
     return (
         <div className="galleryContainer">
             <div className="gallerySort">
@@ -32,7 +34,6 @@ const Gallery = () => {
             </div>
 
             {Images.map((img, index) => {
-                let val = false
                 if (type === Images[index].type || type === "All") val = true
                 if (val === false && index === Images.length - 1) {
                     return <h4>No Images at this time.</h4>
@@ -40,7 +41,7 @@ const Gallery = () => {
                 return (
                     <div className={type === Images[index].type || type === "All" ? "galleryImg active" : "galleryImg"} key={index}>
                         {type === "All" && <img src={img.img} alt="vehicles" className="img" />}
-                        {type === Images[index].type && (<img src={img.img} alt="vehicles" className="img" />)}
+                        {type === Images[index].type && (<img src={img.img} alt={img.alt} className="img" />)}
                     </div>
                 )
             })}

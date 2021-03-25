@@ -70,5 +70,25 @@ form{
             padding:1em;
         }
     }
+}
 
+// Successful Form Styles
+
+.SuccessfulForm{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    p{
+        color: black;
+        font-size: 2em;
+        margin: 1em;
+    }
+    .number{
+        color:#046804;
+        font-size: 2.5em;
+        cursor: pointer;
+    }
 }
