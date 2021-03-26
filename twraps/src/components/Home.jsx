@@ -1,6 +1,7 @@
 import React from 'react'
 import Carousel from './Carousel'
 import TWraps from '../img/TWraps.png'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
     return (
@@ -8,7 +9,7 @@ const Home = () => {
             <header className="head">
                 <img src={TWraps} alt="" className="TWrapsImg" />
                 <h2 className="headTitle">Auto Wraps of Boise</h2>
-                <button className="titleButton">Get a Quote</button>
+                <Link to="/contact" className="titleButton" >Get a Quote</Link>
                 <Carousel />
             </header>
             <section className="about">

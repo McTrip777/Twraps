@@ -28,6 +28,7 @@
             cursor: pointer;
             border: 2px solid #3c3c44;
             border-radius: 5px;
+            user-select: none;
             &:hover{
                 background: #04c304;
                 color: #040404;

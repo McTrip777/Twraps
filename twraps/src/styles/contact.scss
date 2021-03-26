@@ -25,15 +25,22 @@ form{
         flex-direction: column;
         align-items: center;
         width:80%;
-        .nameAndEmail{
+        .nameAndNumber{
             display: flex;
             width:100%;
-            
-            .nameEmail{
+            position: relative;
+            p{
+                color: rgb(128, 0, 0);
+                font-size: 1.5em;
+                position: absolute;
+                left: -10px;
+            }
+            .nameNumber{
                 padding:1em;
                 width:100%;
                 background-color: rgba(68,68,68, .9);
                 color: white;
+                margin:0 0 2em 0;
                 &::placeholder {
                     color: white;
                 }
@@ -41,19 +48,28 @@ form{
             .name{
                 margin-right: 1em;
             }
-            .email{
-                margin-left: 1em;
-            }
         }
-        .subMessage{
-            box-sizing: border-box;
-            width:100%;
-            padding:1em;
-            margin:2em 0;
-            background-color: rgba(68,68,68, .9);
-            color: white;
-            &::placeholder {
+        .emailMessage{
+            position: relative;
+            width: 100%;
+            p{
+                color: rgb(128, 0, 0);
+                font-size: 1.5em;
+                position: absolute;
+                left: -10px;
+            }
+            .subMessage{
+                box-sizing: border-box;
+                width:100%;
+                padding:1em;
+                background-color: rgba(68,68,68, .9);
                 color: white;
+                &::placeholder {
+                    color: white;
+                }
+            }
+            .email{
+                margin:0 0 2em 0;
             }
         }
     }
