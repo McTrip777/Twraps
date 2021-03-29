@@ -3,7 +3,7 @@ import { Images } from './ImgData'
 
 const Gallery = () => {
 
-    const [type, setType] = useState('Commercial')
+    const [type, setType] = useState('All')
 
     const setToAll = () => setType("All")
     const setToCommercial = () => setType("Commercial")

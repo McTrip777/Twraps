@@ -36,6 +36,7 @@ form{
                 left: -10px;
             }
             .nameNumber{
+                user-select: none;
                 padding:1em;
                 width:100%;
                 background-color: rgba(68,68,68, .9);
@@ -43,6 +44,9 @@ form{
                 margin:0 0 2em 0;
                 &::placeholder {
                     color: white;
+                }
+                &:focus {
+                    outline: 2px solid #046804;
                 }
             }
             .name{
@@ -67,6 +71,9 @@ form{
                 &::placeholder {
                     color: white;
                 }
+                &:focus {
+                    outline: 2px solid #046804;
+                }
             }
             .email{
                 margin:0 0 2em 0;
@@ -79,11 +86,12 @@ form{
         justify-content: center;
         .btnOne{
             margin:1em;
-            padding:1em;
-        }
-        .clearBtn{
-            margin:1em;
-            padding:1em;
+            padding:1em 2em;
+            border-radius: 5px;
+            &:hover{
+                background: #046804;
+                color: white;
+            }
         }
     }
 }
