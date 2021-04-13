@@ -34,3 +34,9 @@ A small business located in Boise Idaho, that specializes in vehicle wraps
 ## Language
 
 - Javascript
+
+---
+
+## IDE
+
+- VSCode
