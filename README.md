@@ -15,3 +15,22 @@ A small business located in Boise Idaho, that specializes in vehicle wraps
 ## License & copyright
 
 © Jacob M McFaul, Web Development
+
+---
+
+## Dependencies
+
+- formspree/react
+- cra-template
+- node-sass
+- react
+- react-dom
+- react-icons
+- react-router-dom
+- react-scripts
+
+---
+
+## Language
+
+- Javascript
