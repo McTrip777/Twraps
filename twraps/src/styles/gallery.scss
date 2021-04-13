@@ -1,10 +1,10 @@
 .galleryContainer{
     padding-top: 4em;
     min-height: 53.5vh;
-    color: #636363;
+    color: white;
     text-align: center;
     font-size: 2em;
-
+    background: black;
     .gallerySort{
         display: flex;
         justify-content: space-evenly;
@@ -20,7 +20,8 @@
         }
     }
     .galleryImg{
-
+        width:100vw;
+        
         .img{
             width: 100vw;
         }
