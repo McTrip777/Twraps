@@ -9,7 +9,6 @@ export const Images = [
     { img: mustang, type: "Commercial", alt: "Mustang Commercial Wrap" },
     { img: truck, type: "Commercial", alt: "Truck Commercial Wrap" },
     { img: porche, type: "Color", alt: "Porche Color Wrap" },
-    { img: jeep, type: "Color", alt: "Jeep Color Wrap" },
     { img: kidsWall, type: "Wall", alt: "Animal Map" }
 ]
 
