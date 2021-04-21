@@ -23,7 +23,7 @@ function Contact() {
                 <div className="nameAndNumber">
                     <p>*</p><input className="nameNumber name" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" />
                     <ValidationError prefix="Name" field="name" errors={state.errors} />
-                    <input id="number" name="number" type="text" placeholder="(###) ###-####" className="nameNumber" autoComplete="off" />
+                    <input id="number" name="number" type="tel" placeholder="(###) ###-####" className="nameNumber" autoComplete="off" />
                 </div>
                 <div className="emailMessage">
                     <p>*</p><input
