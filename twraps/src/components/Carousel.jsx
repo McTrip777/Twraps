@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
+// import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'
 import { CarouselImages } from './ImgData'
 
 

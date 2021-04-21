@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../styles/contact.scss'
 import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
     const [state, handleSubmit] = useForm("mzbypjer");
-
+    console.log(state)
     if (state.succeeded) {
         return <div className="SuccessfulForm">
             <p>Your message has gone through successfully. We will get back to you within 1-3 bussiness days. <br /> If you would like to speak to someone sooner, please call</p>
@@ -13,16 +13,17 @@ function Contact() {
         </div>;
     }
     return (
-        <form onSubmit={handleSubmit}>
+        //id="contactform" action="https://formspree.io/mzbypjer" method="POST"
+        <form onSubmit={handleSubmit} >
             <header className="contactHeader">
                 <h2>Interested in working together?</h2>
                 <p>Get your free quote today!</p>
             </header>
             <div className="row">
                 <div className="nameAndNumber">
-                    <p>*</p><input className="nameNumber name" id="name" type="text" name="name" placeholder="Name" required autoComplete="off" />
+                    <p>*</p><input className="nameNumber name" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" />
                     <ValidationError prefix="Name" field="name" errors={state.errors} />
-                    <input id="number" name="number" type="number" placeholder="(888) 888-888" className="nameNumber" autoComplete="off" />
+                    <input id="number" name="number" type="text" placeholder="(###) ###-####" className="nameNumber" autoComplete="off" />
                 </div>
                 <div className="emailMessage">
                     <p>*</p><input

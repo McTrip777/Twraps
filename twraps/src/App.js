@@ -7,6 +7,7 @@ import Gallery from './components/Gallery'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Footer from './components/Footer'
+// import { FormspreeProvider } from '@formspree/react';
 
 const App = () => {
   return (
