@@ -13,7 +13,8 @@ function Contact() {
         </div>;
     }
     return (
-        <form onSubmit={handleSubmit} id="contactform" action="https://formspree.io/mzbypjer" method="POST">
+        //id="contactform" action="https://formspree.io/mzbypjer" method="POST"
+        <form onSubmit={handleSubmit} >
             <header className="contactHeader">
                 <h2>Interested in working together?</h2>
                 <p>Get your free quote today!</p>
