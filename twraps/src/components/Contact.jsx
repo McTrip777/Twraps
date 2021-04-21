@@ -4,7 +4,6 @@ import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
     const [state, handleSubmit] = useForm("mzbypjer");
-    console.log(state)
     if (state.succeeded) {
         return <div className="SuccessfulForm">
             <p>Your message has gone through successfully. We will get back to you within 1-3 bussiness days. <br /> If you would like to speak to someone sooner, please call</p>
