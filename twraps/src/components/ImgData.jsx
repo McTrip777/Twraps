@@ -2,7 +2,7 @@ import jeep from "../img/jeep-wrap-1.png"
 import mustang from "../img/mustang-wrap-1.jpg"
 import truck from "../img/truck-wrap-1.jpeg"
 import porche from "../img/porche-wrap-1.jpeg"
-import kidsWall from "../img/wallwrap.png"
+import kidsWall from "../img/wallwrapcopy.jpg"
 
 export const Images = [
     { img: jeep, type: "Color", alt: "Jeep Color Wrap" },
