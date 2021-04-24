@@ -41,18 +41,49 @@
     }
    }
    .active{
-        animation: fadeInOut 15s linear infinite forwards;
+        animation: fadeInOut 10s linear infinite forwards;
         opacity: 1;
    }
+}
+@media(max-width:800px){
+    .slider{
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // height: 100vh;
+        // min-height: 100vh;
+        // position: absolute;
+        // z-index: -10;
+       .slide{
+            // position: absolute;
+            // z-index: -100;
+            // width: 100vw;
+            // opacity: 0;
+            // max-height: 95vh;
+            // height: 95vh;
+        img{
+            // width: 100vw;
+            // max-height: 95vh;
+            // height: 95vh;
+            padding-top:4vh;
+            object-fit:cover;
+            // overflow: hidden;
+        }
+       }
+       .active{
+            // animation: fadeInOut 15s linear infinite forwards;
+            // opacity: 1;
+       }
+    }
 }
 @keyframes fadeInOut{
     0%{
         opacity: 0;
     }
-    20%{
+    15%{
         opacity: 1;
     }
-    80%{
+    85%{
         opacity: 1;
     }
     100%{

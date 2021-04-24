@@ -58,7 +58,29 @@
         }
     }
 }
-
+@media(max-width: 800px){
+    .homeContainer{
+        
+        .head{
+            .TWrapsImg{
+                display: none;
+            }
+            .headTitle{
+            }
+            .titleButton{
+            }
+        }
+        .about{
+            
+            .aboutTwraps{
+                
+            }
+            .aboutText{
+                
+            }
+        }
+    }
+}
 @media(max-height: 560px){
     .homeContainer{
         

@@ -18,7 +18,7 @@ const Carousel = () => {
     useEffect(() => {
         setTimeout(() => {
             nextSlide()
-        }, 15000)
+        }, 10000)
     }, [current])
 
     if (!Array.isArray(CarouselImages) || CarouselImages.length <= 0) return null
