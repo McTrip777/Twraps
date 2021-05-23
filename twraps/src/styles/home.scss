@@ -1,15 +1,19 @@
 .homeContainer{
     width: 100vw;
-    
+    background-color: #ebebeb;
     .head{
         height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        position: relative;
         .TWrapsImg{
             height: 10em;
-            margin-bottom: 1em;
+            // margin-bottom: 1em;
+            position: absolute;
+            z-index: 10;
+            top: 45%;
         }
         .headTitle{
             color: #ebebeb;
@@ -17,12 +21,14 @@
             font-weight: 700;
             text-shadow: 0px 0px 8px $black;
             font-size: 4em;
-            text-align: center;    
-            
+            // text-align: center;  
+            position: absolute;
+            z-index: 10;  
+            top: 85%;
         }
         .titleButton{
             padding: .5em 1.2em;
-            margin:1em;
+            // margin:1em;
             background: #040404;
             color:#bcbcbc;
             font-size: 1.6em;
@@ -30,6 +36,9 @@
             border: 2px solid #3c3c44;
             border-radius: 5px;
             user-select: none;
+            position: absolute;
+            z-index: 10;
+            top: 92%;
             &:hover{
                 background: #04c304;
                 color: #040404;
@@ -69,8 +78,10 @@
                 display: none;
             }
             .headTitle{
+                top:60%;
             }
             .titleButton{
+                top:75%;
             }
         }
         .about{

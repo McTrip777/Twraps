@@ -3,15 +3,19 @@ import mustang from "../img/mustang-wrap-1.jpg"
 import truck from "../img/truck-wrap-1.jpeg"
 import porche from "../img/porche-wrap-1.jpeg"
 import kidsWall from "../img/wallwrapcopy.jpg"
+import calState from "../img/calStateTruck.jpeg"
 
 export const Images = [
     { img: jeep, type: "Color", alt: "Jeep Color Wrap" },
     { img: mustang, type: "Commercial", alt: "Mustang Commercial Wrap" },
     { img: truck, type: "Commercial", alt: "Truck Commercial Wrap" },
-    { img: porche, type: "Color", alt: "Porche Color Wrap" },
-    { img: kidsWall, type: "Wall", alt: "Animal Map" }
+    { img: porche, type: "Color", alt: "Porche white Wrap" },
+    { img: kidsWall, type: "Wall", alt: "Animal Map" },
+    { img: calState, type: "Commercial", alt: "CalState Truck" }
 ]
 
 export const CarouselImages = [
     { image: jeep }, { image: mustang }, { image: truck }, { image: porche }
 ]
+
+// { img: kidsWall, type: "Wall", alt: "Animal Map" }

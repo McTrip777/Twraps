@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="homeContainer">
             <header className="head">
-                <img src={TWraps} alt="" className="TWrapsImg" />
+                {/* <img src={TWraps} alt="" className="TWrapsImg" /> */}
                 <h2 className="headTitle">Auto Wraps of Boise</h2>
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
                 <Carousel />
