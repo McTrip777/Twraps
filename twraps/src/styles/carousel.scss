@@ -2,11 +2,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    // height: 100vh;
+    height: 100vh;
     min-height: 100%;
     position: absolute;
     z-index: 1;
-
+    padding-top:2vh;
 //    .arrow{
 //     position: absolute;
 //     top: 40%;
@@ -34,11 +34,12 @@
         height: 95vh;
     img{
         width: 100vw;
-        max-height: 95vh;
-        height: 95vh;
+        max-height: 97vh;
+        height: 96.5vh;
         padding-top:5vh;
         object-fit: cover;
         // overflow: hidden;
+        box-sizing: border-box;
     }
    }
    .active{
@@ -64,8 +65,7 @@
             height: 60vh;
         img{
             width: 100vw;
-            max-height: 60vh;
-            height: 95vh;
+            max-height: 59vh;
             padding-top:0;
             object-fit:cover;
             overflow: hidden;
