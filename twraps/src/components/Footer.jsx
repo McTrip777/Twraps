@@ -19,7 +19,7 @@ function Footer() {
                         <a href="https://www.instagram.com/twrapsofboise/" target="_blank"><i className="fab fa-instagram fa-2x"></i></a>
                         {/* <a to="/twitter" target="_blank"><i className="fab fa-twitter fa-2x"></i></a> */}
                     </div>
-                    <Link to="/contact"><button>REQUEST A QUOTE</button></Link>
+                    <Link className="RequestAQuote" to="/contact">REQUEST A QUOTE</Link>
                 </div>
                 <div className="foo footerAbout">
                     <h4>T-Wraps</h4>

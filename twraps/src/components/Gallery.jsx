@@ -16,19 +16,19 @@ const Gallery = () => {
         <div className="galleryContainer">
             <div className="gallerySort">
                 <section className={type === 'All' ? "buttonSelect active" : "buttonSelect"} onClick={setToAll}>
-                    <h4 className="allText">All</h4>
+                    <button className="allText">All</button>
                     {type === "All" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
                 <section className={type === 'Commercial' ? "buttonSelect active" : "buttonSelect"} onClick={setToCommercial}>
-                    <h4 className="commercialText">Commercial</h4>
+                    <button className="commercialText">Commercial</button>
                     {type === "Commercial" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
                 <section className={type === 'Wall' ? "buttonSelect active" : "buttonSelect"} onClick={setToWall}>
-                    <h4 className="wallText">Wall</h4>
+                    <button className="wallText">Wall</button>
                     {type === "Wall" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
                 <section className={type === 'Color' ? "buttonSelect active" : "buttonSelect"} onClick={setToColor}>
-                    <h4 className="colorText">Color</h4>
+                    <button className="colorText">Color</button>
                     {type === "Color" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
             </div>

@@ -20,15 +20,15 @@ function Contact() {
             </header>
             <div className="row">
                 <div className="nameAndNumber">
-                    <p>*</p><input className="nameNumber name" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" />
+                    <input className="nameNumber name" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" autoFocus/>
                     <ValidationError prefix="Name" field="name" errors={state.errors} />
                     <input id="number" name="number" type="tel" placeholder="(###) ###-####" className="nameNumber" autoComplete="off" />
                 </div>
                 <div className="emailMessage">
-                    <p>*</p><input
+                    <input
                         className="subMessage email" id="email" type="email" name="email" placeholder="Email" required autoComplete="off" />
                     <ValidationError prefix="Email" field="email" errors={state.errors} />
-                    <p>*</p><textarea id="message" type="text" name="message" placeholder="Message" className="subMessage" required autoComplete="off" />
+                    <textarea id="message" type="text" name="message" placeholder="Message" className="subMessage" required autoComplete="off" />
                     <ValidationError prefix="Message" field="message" errors={state.errors} />
                 </div>
                 <div className="buttons inp">

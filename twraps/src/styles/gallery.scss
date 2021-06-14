@@ -10,9 +10,16 @@
         justify-content: space-evenly;
         
         .buttonSelect{
+            display: flex;
+            flex-direction: column;
             cursor: pointer;
-            h4{
+            margin-bottom: .5em;
+            button{
                 font-size: .8em;
+                background: none;
+                color:white;
+                border:none;
+                font-family: inherit;
             }
             i{
                 font-size: .6em;
